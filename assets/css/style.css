@@ -1,5 +1,5 @@
 header {
-    margin-top: 80px;
+    padding-top: 80px;
     font-size: 80px;
     text-align: center;
     height: 160px;
@@ -9,10 +9,10 @@ header {
 
 /* background */
 
-.main {
-    color: ;
+.background {
+    color: #fff;
     height: 960px;
-    background-image: url(images/starwars.jpg);
+    background-image: url(starwars.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,6 +26,7 @@ header {
     border-width: 4px;
     width: 90%;
     float: center;
+    padding-left: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 

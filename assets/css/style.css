@@ -1,9 +1,32 @@
 header {
-    margin-top: 40px;
+    margin-top: 80px;
     font-size: 80px;
     text-align: center;
     height: 160px;
-    width: 90%
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+/* background */
+
+.main {
+    color: ;
+    height: 960px;
+    background-image: url(images/starwars.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* main game table */
+
+.container {
+    border-style: dashed;
+    border-width: 4px;
+    width: 90%;
+    float: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
 .statement {

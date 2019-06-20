@@ -11,7 +11,8 @@ header {
 
 .background {
     color: #fff;
-    height: 960px;
+    height: 850px;
+    width: 100%;
     background-image: url(starwars.jpg);
     background-position: center center;
     background-repeat: no-repeat;

@@ -1,0 +1,47 @@
+header {
+    margin-top: 40px;
+    font-size: 80px;
+    text-align: center;
+    height: 160px;
+    width: 90%
+}
+
+.statement {
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    height: 80px;
+    width: 90%
+}
+
+.wins {
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    height: 80px;
+    width: 90%
+}
+
+.underscore {
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    height: 80px;
+    width: 90%
+}
+
+.numberGuess {
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    height: 80px;
+    width: 90%
+}
+
+.wrongGuess {
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    height: 80px;
+    width: 90%
+}

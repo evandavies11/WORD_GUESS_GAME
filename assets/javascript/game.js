@@ -23,16 +23,16 @@ var userAnswers = "guess".toLocaleLowerCase();
 
 // get users guess
 document.addEventListener("keypress", (event) => {
-    let keyword = String.fromCharCode(event.keycode);
+    var answerArray = String.fromCharCode(event.keycode);
     //check if right
 
     if (userAnswers.indexOf(keyword) > -1) {
         //add right words to the array
         rightWord.push(keyword);
         //replace underscore with right letter
-        underScore[choosenWord.indexOf(keyword)] = keyword;
+        underscore[userAnswers.indexOf(keyword)] = keyword;
         // checks to see if user word matches guesses
-        if (underScore.join(" ") == choosenWord) {
+        if (underscore.join(" ") == userAnswers) {
             alert("win");
         }
     }

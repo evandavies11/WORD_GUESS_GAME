@@ -1,10 +1,11 @@
 // possible answers
-var answerArray [
-"jedi "
-"ligtsaber"
-"wookie"
-"tatooine"
-]
+var answerArray;
+anserArray = [
+    "jedi",
+    "ligtsaber",
+    "wookie",
+    "tatooine",
+];
 
 var answerArray = [];
 for (var i = 0; i < word.length; i++) {
@@ -42,7 +43,7 @@ document.addEventListener("keypress", (event) => {
     }
 });
 
-}
+
 //display guessed letters in the wrongGuess field
 function displayOutput() {
     document.write.wrongGuess =
